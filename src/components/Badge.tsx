@@ -51,7 +51,7 @@ export const Badge = (props: Props) => {
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>Powered by Darshana 
+    }}>Powered by Darshana @
       <a
       ref={liteBadge}
       href={'htts://aussie-brands.com.au'}
@@ -65,8 +65,6 @@ export const Badge = (props: Props) => {
       </a>
 
 
-
-      </a>
     </span>
   )
 }
