@@ -51,8 +51,22 @@ export const Badge = (props: Props) => {
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>Powered by Darshana
-      
+    }}>Powered by Darshana 
+      <a
+      ref={liteBadge}
+      href={'htts://aussie-brands.com.au'}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="lite-badge"
+      id="lite-badge"
+      style={{"font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor}}
+       >
+        <span> aussie-brands </span>
+      </a>
+
+
+
+      </a>
     </span>
   )
 }
